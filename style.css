@@ -1,0 +1,204 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+ /* Common Button Style */
+ .common-btn {
+    background-color: #FD6E0A;
+    padding: 18px 36px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+ .outline-btn {
+    background-color: white;
+    padding: 18px 36px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FD6E0A;
+    border: none;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+ }
+ .container {
+    max-width: 1200px;
+    margin: auto;
+ }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-r {
+    color: #FD6E0A;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+ul li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* hero section style */
+.hero-parent-root{
+    background-color: #FFF8F3;
+}
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left hero-left-p-1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 40;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.hero-left-btn-parent{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+/* abut section style */
+.about-parent{
+    background-color: #FFF8F3;
+    margin: 130px auto;
+    padding: 131px 156px;
+    text-align: center;
+    border-radius: 12px;
+
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.about-parent p{
+    margin: 30px 0;
+}
+.about-box-parent .box{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* what i do section style */
+.what-i-do-parent{
+    text-align: center;
+}
+.what-i-do-card-container{
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.what-i-do-card{
+    padding: 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    
+}
+.what-i-do-card p{
+    color: #757575;
+}
+.what-i-do-card h2{
+    margin: 30px 0;
+}
+
+/* resume section style */
+.resume-parent{
+    text-align: center;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+.resume-card-parent{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 70px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D1D1D1;
+}
+.remume-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.resume-parent .common-btn{
+    margin: auto;
+}
+
+/* my amazing work section */
+.my-amazing-parent{
+    text-align: center;
+    margin-top: 130px;
+}
+.gallary{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.gallary img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+}
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 130px !important; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 117px;
+    background-color: #FFF8F3;
+    padding: 50px;
+    border-radius: 10px;
+}
+footer form{
+    padding: 20px;
+}
+footer form input, textarea {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 18px 30px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.footer-left{
+    text-align: left;
+}
+.footer-left p{
+    padding: 20PX 0;
+}
